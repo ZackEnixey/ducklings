@@ -1,15 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Office from './components/ducklings/Office';
 import Countdown from './components/countdown/Countdown';
+import {
+	BrowserRouter as Router,
+	Routes,
+	Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Countdown />
-      <Office />
-    </div>
+    <Router>
+      <Routes>
+        <Route path={`/office`} element={<Office />} />
+        <Route path={`/countdown`} element={<Countdown />} />
+      </Routes>
+    </Router>
   );
 }
 

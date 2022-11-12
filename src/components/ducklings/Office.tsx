@@ -5,7 +5,7 @@ const Office = () => {
 
     return (
         <div>
-            <MenuBar />
+            <MenuBar /> jhf
             <div className="luka_trajector">
                 <div className="shaking_wrapper"></div>
             </div>
@@ -13,6 +13,9 @@ const Office = () => {
                 <div className="shaking_wrapper"></div>
             </div>
             <div className="zoki_trajector">
+                <div className="shaking_wrapper"></div>
+            </div>
+            <div className="minja_trajector">
                 <div className="shaking_wrapper"></div>
             </div>
         </div>

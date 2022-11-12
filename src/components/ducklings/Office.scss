@@ -1,7 +1,9 @@
 
 .luka_trajector{
     position: absolute;
-    animation: swinging 6s alternate infinite;
+    top: -7vh;  
+    left: 0vw;
+    animation: swingingLuka 20s alternate infinite;
 
     .shaking_wrapper {
         width: 184px;
@@ -11,36 +13,42 @@
     }
 }
   
-@keyframes swinging {
+@keyframes swingingLuka {
     0%{
-        top: 0vh;  
+        top: -7vh;  
         left: 0vw;
     }
-    5% {
+    5%{
+        top: -5vh;  
+        left: 0vw;
+    }
+    10% {
         top: 0vh;
-        left: 5vw;
+        left: 10vw;
     }
     40% {
-        top: 50vh;
-        left: 70vw;
+        top: 60vh;
+        left: 45vw;
     }
-    60% {
-        top: 50vh;
-        left: 70vw;
+    80% {
+        top: 60vh;
+        left: 85vw;
     }
-    70% {
-        top: 0vh;
-        left: 5vw;
+    100% {
+        top: 60vh;
+        left: 85vw;
     }
     100%{
-        top: 0vh;  
-        left: 0vw;
+        top: 60vh;
+        left: 85vw;
     }
 }
 
 .ivan_trajector{
     position: absolute;
-    animation: swinging 6s 1s alternate infinite;
+    top: 10vh;  
+    left: 0vw;
+    animation: swingingIvan 20s 1s alternate infinite;
 
     .shaking_wrapper {
         width: 184px;
@@ -50,15 +58,109 @@
     }
 }
 
+@keyframes swingingIvan {
+    0%{
+        top: 10vh;  
+        left: 0vw;
+    }
+    30%{
+        top: 10vh;  
+        left: 0vw;
+    }
+    40% {
+        top: 10vh;
+        left: 10vw;
+    }
+    70% {
+        top: 60vh;
+        left: 45vw;
+    }
+    85% {
+        top: 40vh;
+        left: 75vw;
+    }
+    100%{
+        top: 65vh;
+        left: 83vw;
+    }
+}
+
 
 .zoki_trajector{
     position: absolute;
-    animation: swinging 6s 2s alternate infinite;
+    top: 70vh;  
+    left: 20vw;
+    animation: swingingZoki 20s alternate infinite;
 
     .shaking_wrapper {
         width: 255px;
         height: 340px;
         background-image: url("../../assets/zokigif.gif");
         transform: scale(0.4) 
+    }
+}
+
+@keyframes swingingZoki {
+    0%{
+        top: 70vh;  
+        left: 20vw;
+    }
+    20%{
+        top: 70vh;  
+        left: 20vw;
+    }
+    25% {
+        top: 50vh;  
+        left: 20vw;
+    }
+    50% {
+        top: 60vh;
+        left: 45vw;
+    }
+    80% {
+        top: 50vh;
+        left: 90vw;
+    }
+    100% {
+        top: 50vh;
+        left: 90vw;
+    }
+}
+
+
+.minja_trajector{
+    position: absolute;
+    top: 70vh;  
+    left: 70vw;
+    animation: swingingMinja 20s 2s alternate infinite;
+
+    .shaking_wrapper {
+        width: 180px;
+        height: 430px;
+        background-image: url("../../assets/minjagif.gif");
+        transform: scale(0.4) 
+    }
+}
+
+@keyframes swingingMinja {
+    0%{
+        top: 70vh;  
+        left: 70vw;
+    }
+    50%{
+        top: 70vh;  
+        left: 70vw;
+    }
+    60% {
+        top: 50vh;  
+        left: 70vw;
+    }
+    100% {
+        top: 60vh;
+        left: 90vw;
+    }
+    100%{
+        top: 70vh;
+        left: 90vw;
     }
 }

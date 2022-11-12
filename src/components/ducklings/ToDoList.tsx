@@ -89,6 +89,7 @@ const ToDoList = () => {
                     </div>
                     <AddTaskForm addTask={addTask} />
                     <div className="select_duck_wrapper">
+                        <div className="izaberite_patku"> izaberite koja ste patka: </div> 
                         {renderAllDucks()}
                     </div>
                 </div>

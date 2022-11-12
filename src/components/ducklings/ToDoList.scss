@@ -47,7 +47,7 @@ h1 {
 .todo_list_holder {
     position: relative;
     width: 600px;
-    height: 550px;
+    height: 600px;
     background: linear-gradient(to right, #800080, #7c6dfadb);
     display: flex;
     align-items: center;
@@ -69,7 +69,7 @@ h1 {
 .todo_list {
     padding-top: 10px;
     width: 400px;
-    height: 400px;
+    height: 450px;
 
     .todo_list_items {
         height: 300px;
@@ -189,4 +189,13 @@ form button {
 
 .lightupduck {
     background-color: #ffffff80
+}
+
+.izaberite_patku {
+    font-size: 14px;
+    color: white;
+    font-weight: 900;
+    width: 100%;
+    text-align: left;
+    margin: 15px 0;
 }

@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ducklings/static/css/main.68bb55e4.css",
-    "main.js": "/ducklings/static/js/main.600c2be1.js",
+    "main.css": "/ducklings/static/css/main.65f60734.css",
+    "main.js": "/ducklings/static/js/main.2617679c.js",
     "static/js/787.88ec90f1.chunk.js": "/ducklings/static/js/787.88ec90f1.chunk.js",
+    "static/media/minjagif.gif": "/ducklings/static/media/minjagif.bf0ca2a66e37c987a367.gif",
     "static/media/ivangif.gif": "/ducklings/static/media/ivangif.ddc900b330cc8977156f.gif",
     "static/media/zokigif.gif": "/ducklings/static/media/zokigif.6d7a041443ddc42f34bb.gif",
     "static/media/lukagif.gif": "/ducklings/static/media/lukagif.f525f0ef595b793e9498.gif",
     "index.html": "/ducklings/index.html",
-    "main.68bb55e4.css.map": "/ducklings/static/css/main.68bb55e4.css.map",
-    "main.600c2be1.js.map": "/ducklings/static/js/main.600c2be1.js.map",
+    "main.65f60734.css.map": "/ducklings/static/css/main.65f60734.css.map",
+    "main.2617679c.js.map": "/ducklings/static/js/main.2617679c.js.map",
     "787.88ec90f1.chunk.js.map": "/ducklings/static/js/787.88ec90f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68bb55e4.css",
-    "static/js/main.600c2be1.js"
+    "static/css/main.65f60734.css",
+    "static/js/main.2617679c.js"
   ]
 }

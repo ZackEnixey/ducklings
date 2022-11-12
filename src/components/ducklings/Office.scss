@@ -1,0 +1,64 @@
+
+.luka_trajector{
+    position: absolute;
+    animation: swinging 6s alternate infinite;
+
+    .shaking_wrapper {
+        width: 184px;
+        height: 375px;
+        background-image: url("../../assets/lukagif.gif");
+        transform: scale(0.4) 
+    }
+}
+  
+@keyframes swinging {
+    0%{
+        top: 0vh;  
+        left: 0vw;
+    }
+    5% {
+        top: 0vh;
+        left: 5vw;
+    }
+    40% {
+        top: 50vh;
+        left: 70vw;
+    }
+    60% {
+        top: 50vh;
+        left: 70vw;
+    }
+    70% {
+        top: 0vh;
+        left: 5vw;
+    }
+    100%{
+        top: 0vh;  
+        left: 0vw;
+    }
+}
+
+.ivan_trajector{
+    position: absolute;
+    animation: swinging 6s 1s alternate infinite;
+
+    .shaking_wrapper {
+        width: 184px;
+        height: 400px;
+        background-image: url("../../assets/ivangif.gif");
+        transform: scale(0.4) 
+    }
+}
+
+
+.zoki_trajector{
+    position: absolute;
+    animation: swinging 6s 2s alternate infinite;
+
+    .shaking_wrapper {
+        width: 255px;
+        height: 340px;
+        background-image: url("../../assets/zokigif.gif");
+        transform: scale(0.4) 
+    }
+}

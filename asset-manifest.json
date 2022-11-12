@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ducklings/static/css/main.b5888838.css",
-    "main.js": "/ducklings/static/js/main.547193bc.js",
+    "main.css": "/ducklings/static/css/main.2d505dbc.css",
+    "main.js": "/ducklings/static/js/main.7dc55a25.js",
     "static/js/787.88ec90f1.chunk.js": "/ducklings/static/js/787.88ec90f1.chunk.js",
     "static/media/minjagif.gif": "/ducklings/static/media/minjagif.bf0ca2a66e37c987a367.gif",
     "static/media/ivangif.gif": "/ducklings/static/media/ivangif.ddc900b330cc8977156f.gif",
@@ -9,13 +9,14 @@
     "static/media/lukagif.gif": "/ducklings/static/media/lukagif.f525f0ef595b793e9498.gif",
     "static/media/universal.gif": "/ducklings/static/media/universal.30356b0af587f8b867c3.gif",
     "static/media/cigarette.png": "/ducklings/static/media/cigarette.92fc42dfbb240f897a5c.png",
+    "static/media/trashcan.svg": "/ducklings/static/media/trashcan.c0ab5d9efe383d1145e44d37d5489c40.svg",
     "index.html": "/ducklings/index.html",
-    "main.b5888838.css.map": "/ducklings/static/css/main.b5888838.css.map",
-    "main.547193bc.js.map": "/ducklings/static/js/main.547193bc.js.map",
+    "main.2d505dbc.css.map": "/ducklings/static/css/main.2d505dbc.css.map",
+    "main.7dc55a25.js.map": "/ducklings/static/js/main.7dc55a25.js.map",
     "787.88ec90f1.chunk.js.map": "/ducklings/static/js/787.88ec90f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5888838.css",
-    "static/js/main.547193bc.js"
+    "static/css/main.2d505dbc.css",
+    "static/js/main.7dc55a25.js"
   ]
 }

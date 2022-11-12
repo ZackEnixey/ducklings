@@ -3,7 +3,7 @@
     position: absolute;
     top: -7vh;  
     left: 0vw;
-    animation: swingingLuka 20s alternate infinite;
+    animation: linear swingingLuka 20s alternate infinite;
 
     .shaking_wrapper {
         width: 184px;
@@ -19,7 +19,7 @@
         left: 0vw;
     }
     5%{
-        top: -5vh;  
+        top: -7vh;  
         left: 0vw;
     }
     10% {
@@ -31,15 +31,11 @@
         left: 45vw;
     }
     80% {
-        top: 60vh;
+        top: 55vh;
         left: 85vw;
     }
     100% {
-        top: 60vh;
-        left: 85vw;
-    }
-    100%{
-        top: 60vh;
+        top: 55vh;
         left: 85vw;
     }
 }
@@ -48,7 +44,7 @@
     position: absolute;
     top: 10vh;  
     left: 0vw;
-    animation: swingingIvan 20s 1s alternate infinite;
+    animation: linear swingingIvan 20s 1s alternate infinite;
 
     .shaking_wrapper {
         width: 184px;
@@ -90,7 +86,7 @@
     position: absolute;
     top: 70vh;  
     left: 20vw;
-    animation: swingingZoki 20s alternate infinite;
+    animation: linear swingingZoki 20s alternate infinite;
 
     .shaking_wrapper {
         width: 255px;
@@ -113,26 +109,26 @@
         top: 50vh;  
         left: 20vw;
     }
-    50% {
+    55% {
         top: 60vh;
         left: 45vw;
     }
-    80% {
-        top: 50vh;
-        left: 90vw;
+    85% {
+        top: 48vh;
+        left: 78vw;
     }
     100% {
-        top: 50vh;
-        left: 90vw;
+        top: 48vh;
+        left: 78vw;
     }
 }
 
 
 .minja_trajector{
     position: absolute;
-    top: 70vh;  
-    left: 70vw;
-    animation: swingingMinja 20s 2s alternate infinite;
+    top: 65vh;  
+    left: 60vw;
+    animation: linear swingingMinja 20s 2s alternate infinite;
 
     .shaking_wrapper {
         width: 180px;
@@ -144,23 +140,208 @@
 
 @keyframes swingingMinja {
     0%{
-        top: 70vh;  
-        left: 70vw;
+        top: 65vh;  
+        left: 60vw;
     }
     50%{
-        top: 70vh;  
-        left: 70vw;
+        top: 65vh;  
+        left: 60vw;
     }
-    60% {
+    65% {
         top: 50vh;  
-        left: 70vw;
+        left: 65vw;
     }
-    100% {
+    80% {
         top: 60vh;
         left: 90vw;
     }
     100%{
-        top: 70vh;
+        top: 65vh;
         left: 90vw;
     }
 }
+
+.nikola_trajector{
+    position: absolute;
+    top: 7vh;  
+    left: 5vw;
+    animation: linear swingingNikola 20s 2s alternate infinite;
+
+    .shaking_wrapper {
+        width: 210px;
+        height: 380px;
+        background-image: url("../../assets/universal.gif");
+        transform: scale(0.4) 
+    }
+}
+
+@keyframes swingingNikola {
+    0%{
+        top: 7vh;  
+        left: 5vw;
+    }
+    10%{
+        top: 7vh;  
+        left: 7vw;
+    }
+    20% {
+        top: 7vh;
+        left: 10vw;
+    }
+    50% {
+        top: 60vh;
+        left: 38vw;
+    }
+    85% {
+        top: 40vh;
+        left: 85vw;
+    }
+    100%{
+        top: 40vh;
+        left: 85vw;
+    }
+}
+
+
+.sara_trajector{
+    position: absolute;
+    top: 70vh;  
+    left: 10vw;
+    animation: linear swingingSara 20s alternate infinite;
+
+    .shaking_wrapper {
+        width: 210px;
+        height: 380px;
+        background-image: url("../../assets/universal.gif");
+        transform: scale(0.4) 
+    }
+}
+  
+@keyframes swingingSara {
+    0%{
+        top: 70vh;  
+        left: 10vw;
+    }
+    40%{
+        top: 70vh;  
+        left: 10vw;
+    }
+    80% {
+        top: 70vh;
+        left: 75vw;
+    }
+    100%{
+        top: 70vh;
+        left: 75vw;
+    }
+}
+
+.pedja_trajector{
+    position: absolute;
+    top: 70vh;  
+    left: 45vw;
+    animation: linear swingingPedja 20s alternate infinite;
+
+    .shaking_wrapper {
+        width: 210px;
+        height: 380px;
+        background-image: url("../../assets/universal.gif");
+        transform: scale(0.4) 
+    }
+}
+  
+@keyframes swingingPedja {
+    0%{
+        top: 70vh;  
+        left: 45vw;
+    }
+    45%{
+        top: 70vh;  
+        left: 45vw;
+    }
+    80% {
+        top: 70vh;
+        left: 75vw;
+    }
+    100%{
+        top: 70vh;
+        left: 75vw;
+    }
+}
+
+.srba_trajector{
+    position: absolute;
+    top: 40vh;  
+    left: 45vw;
+    animation: linear swingingSrba 20s alternate infinite;
+
+    .shaking_wrapper {
+        width: 210px;
+        height: 380px;
+        background-image: url("../../assets/universal.gif");
+        transform: scale(0.4) 
+    }
+}
+  
+@keyframes swingingSrba {
+    0%{
+        top: 40vh;  
+        left: 45vw;
+    }
+    45%{
+        top: 40vh;  
+        left: 45vw;
+    }
+    80% {
+        top: 40vh;
+        left: 75vw;
+    }
+    100%{
+        top: 40vh;
+        left: 75vw;
+    }
+}
+
+.show_hide {
+    position: absolute;
+    right: -5vw;
+    animation: showcig 20s linear alternate infinite;
+}
+
+@keyframes showcig {
+    0%{  
+        right: -40vw;
+    }
+    45%{  
+        right: -40vw;
+    }
+    80% {
+        right: 0vw;
+    }
+    100%{
+        right: 0vw;
+    }
+}
+
+.swinging {
+    position: absolute;
+    top: 40vh;  
+    right: 5vw;
+    margin: 20px;
+    animation: first 1.5s linear alternate infinite;
+}
+  
+@keyframes first {
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+.cigarette {
+
+    background-image: url("../../assets/cigarette.png");
+    width: 232px;
+    height: 232px;
+    transform: scale(0.4)
+}
+  

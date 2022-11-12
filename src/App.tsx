@@ -6,15 +6,17 @@ import {
 	Routes,
 	Route,
 } from "react-router-dom";
+import MenuBar from './components/menuBar/MenuBar';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path={`/office`} element={<Office />} />
-        <Route path={`/countdown`} element={<Countdown />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route path={`/`} element={<MenuBar />} />
+          <Route path={`/office`} element={<Office />} />
+          <Route path={`/countdown`} element={<Countdown />} />
+        </Routes>
+      </Router>
   );
 }
 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import MenuBar from "../menuBar/MenuBar";
 import "./Countdown.scss";
 
 const Countdown = () => {
@@ -46,34 +47,35 @@ const Countdown = () => {
 
   return (
     <div>
-      <h3 className="subtitle">Countdown till TelAviv</h3>
-      <div className='countdown-wrapper'>
-        <div className='time-section'>
-          <div className='time'>{state.days || '0'}</div>
-          <small className="time-text">Days</small>
+        <MenuBar />
+        <h3 className="subtitle">Countdown till TelAviv</h3>
+        <div className='countdown-wrapper'>
+            <div className='time-section'>
+            <div className='time'>{state.days || '0'}</div>
+            <small className="time-text">Days</small>
+            </div>
+            <div className='time-section'>
+            <div className='time'>:</div>
+            </div>
+            <div className='time-section'>
+            <div className='time'>{state.hours || '00'}</div>
+            <small className="time-text">Hours</small>
+            </div>
+            <div className='time-section'>
+            <div className='time'>:</div>
+            </div>
+            <div className='time-section'>
+            <div className='time'>{state.minutes || '00'}</div>
+            <small className="time-text">Minutes</small>
+            </div>
+            <div className='time-section'>
+            <div className='time'>:</div>
+            </div>
+            <div className='time-section'>
+            <div className='time'>{state.seconds || '00'}</div>
+            <small className="time-text">Seconds</small>
+            </div>
         </div>
-        <div className='time-section'>
-          <div className='time'>:</div>
-        </div>
-        <div className='time-section'>
-          <div className='time'>{state.hours || '00'}</div>
-          <small className="time-text">Hours</small>
-        </div>
-        <div className='time-section'>
-          <div className='time'>:</div>
-        </div>
-        <div className='time-section'>
-          <div className='time'>{state.minutes || '00'}</div>
-          <small className="time-text">Minutes</small>
-        </div>
-        <div className='time-section'>
-          <div className='time'>:</div>
-        </div>
-        <div className='time-section'>
-          <div className='time'>{state.seconds || '00'}</div>
-          <small className="time-text">Seconds</small>
-        </div>
-      </div>
     </div>
   );
 };

@@ -17,7 +17,7 @@ const AddTaskForm: FC<any> = ({ addTask }) => {
         <input
           type="text"
           value={value}
-          placeholder="Enter a title for this task…"
+          placeholder="Ovo je shopping list. Unesite sta vam treba."
           onChange={e => setValue(e.target.value)}
 
         />
